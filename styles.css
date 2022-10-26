@@ -183,3 +183,11 @@ div {
     padding: 10px;
     border-radius: 50%;
  }
+
+ .user-welcome {
+    display: flex;
+ }
+
+ .user-logged-in {
+    display: flex;
+ }
