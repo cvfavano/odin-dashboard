@@ -154,8 +154,16 @@ div {
  }
 
 
- .trending a {
+ .trending > a {
     display: block;
+    text-decoration: none;
+ }
+
+ .trending > a .alias {
+    color: #000;
+ }
+ .trending > a .user-description {
+    color: #999;
  }
 
  .pod {
@@ -169,4 +177,9 @@ div {
     border-radius: 20px;
     border: none;
     background-color: lightcyan;
+ }
+
+ .user, .user-small {
+    padding: 10px;
+    border-radius: 50%;
  }
