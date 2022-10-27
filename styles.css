@@ -193,6 +193,16 @@ div {
     display: flex;
  }
 
+.user-welcome {
+    font-weight: bold;
+}
+
+.user-welcome p{
+    padding-top: 18px;
+}
+.user-welcome span {
+    font-size: 1.6em;
+}
  .user-logged-in {
     display: flex;
     align-items: center;
