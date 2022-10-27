@@ -209,3 +209,13 @@ div {
     font-weight: bold;
  }
 
+.toolbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.toolbar button {
+    font-weight: bold;
+}
