@@ -37,7 +37,7 @@ div {
 }
 
 .header{
-    padding: 20px;
+    padding: 10px 20px 20px;
     grid-column: 2 / 5;
     background: #adcae6;
 }
@@ -48,10 +48,15 @@ div {
     justify-content: space-between;
 }
 
-
+.search-container {
+    margin-top: 5px;
+    width: 70%;
+}
 #site-search {
-    border-radius: 3px;
     border: none;
+    width: 90%;
+    padding: 1%;
+    border-radius: 14px;
 }
 
 .sidebar {
@@ -190,4 +195,7 @@ div {
 
  .user-logged-in {
     display: flex;
+    align-items: center;
+    font-weight: bold;
  }
+
