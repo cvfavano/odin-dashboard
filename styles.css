@@ -27,17 +27,13 @@ h3 {
     margin-right: 10px;
 }
 
-div {
- /*   border: 1px red solid;*/
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
 
 .header{
-    padding: 10px 20px 0;
+    padding: 10px 20px 15px;
     grid-column: 2 / 5;
     background: #adcae6;
 }
